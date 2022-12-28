@@ -23,5 +23,5 @@ steps:
       awsCredentials: 'YOUR_AWS_CONNECTION_DEV'
       regionName: 'us-east-1'
       bucketName: 'auth0-custom-login-idp'
-      sourceFolder: '$(Build.SourcesDirectory)/out'
+      sourceFolder: '$(Build.SourcesDirectory)/auth0-custom-login-deploy/out'
       globExpressions: '_next/**'
