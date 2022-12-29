@@ -20,6 +20,7 @@ steps:
     displayName: 'Yarn install and build'
 
   - script: |
+      cd auth0-custom-login-deploy
       yarn deploy:auth0
     displayName: 'Auth0 deploy login HTML'
     env:
